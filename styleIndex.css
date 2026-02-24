@@ -1,0 +1,41 @@
+#btn{
+     border: 4px solid rgb(103, 98, 241);
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 15px;
+    padding: 10px;
+    margin-left: 110px;
+    
+}
+
+#user,#pass{
+    border: 4px solid rgb(103, 98, 241);
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 15px;
+    padding: 10px;
+    margin-right: 600px;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    background-image: url(https://images.pexels.com/photos/31681689/pexels-photo-31681689.jpeg);
+    background-size: cover;
+}
+
+#user:hover{
+    background-color: rgb(245, 239, 147);
+}
+
+#pass:hover{
+    background-color: rgb(245, 239, 147);
+}
+
+#btn:hover{
+     background-color: yellow;
+
+}
